@@ -1,0 +1,261 @@
+/*
+* This is a style of chat directory.
+*/
+.chat-Container {
+
+    .chat-title {
+        background: rgb(8, 119, 119);
+        text-align: center;
+        position: fixed;
+        height: 10%;
+        width: 20%;
+        left: 0;
+        top: 0;
+        span {
+            display: inline-block;
+        }
+        span img {
+            width: 30px;
+            height: 30px;
+        }
+        div {
+            color: rgb(255, 255, 255);
+            display: inline-block;
+            margin: 20px auto;
+            font-weight: 900;
+            font-size: 25px;
+        }
+    }
+    
+    .chat-panel {
+        background: rgb(255, 255, 255);
+        color: rgb(73, 73, 73);
+        overflow-y: scroll;
+        font-weight: 900;
+        position: fixed;
+        height: 90%;
+        width: 20%;
+        top: 10%;
+        left: 0;
+        .message-sender {
+            margin: 20px 10px 20px 30px;
+            cursor: pointer;
+        }
+        img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50px;
+
+            float: left;
+            margin-top: 05px;
+            margin-left: 30px;
+            margin-right: 10px;
+        }
+        .chat-border {
+            margin: 10px 10px 10px 30px;
+            border-bottom: 1px solid rgb(206, 206, 206);
+        }
+        .chat-border-dammy {
+            border-bottom: 1px solid rgb(255, 255, 255);
+        }
+    }
+
+    .message-panel {
+        width: 80%;
+        position: fixed;
+        min-height: 100%;
+        margin-left: 20.1%;
+        background: white;
+        .user-profile {
+            background: rgb(8, 119, 119);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            position: fixed;
+            height: 10%;
+            left: 20.1%;
+            width: 80%;
+            top: 0;
+            .user-name {
+                float: left;
+                cursor: default;
+                font-weight: 900;
+                margin-top: 25px;
+                margin-left: 10px;
+            }
+
+            img {
+                width: 30px;
+                height: 30px;
+                border-radius: 50px;
+
+                float: left;
+                margin-top: 15px;
+                margin-left: 25px;
+            }
+
+        }
+
+        .message-dashboard {
+            background: rgb(255, 255, 255);
+            overflow-y: scroll;
+            position: fixed;
+            height: 82%;
+            left: 20.1%;
+            width: 80%;
+            top: 10%;
+
+            .head {
+                position: fixed;
+                margin: auto;
+                width: 80%;
+                h2 {
+                    color: rgb(8, 99, 94);
+                    text-align: center;
+                    margin-top: 10px;
+                    font-weight: 900;
+                    font-size: 12px;
+                }
+            }
+
+            .heads {
+                position: fixed;
+                margin: auto;
+                width: 80%;
+                h2 {
+                    color: rgb(8, 99, 94);
+                    text-align: center;
+                    margin-top: 200px;
+                    font-weight: 900;
+                    font-size: 12px;
+                }
+            }
+            
+            #sent-msg {
+                padding: 10px 10px 10px 10px;
+                color: rgb(24, 109, 76);
+                border-radius: 15px;
+                background: rgb(235, 235, 235);
+                position: fixed;
+                bottom: 20%;
+                left: 55%;
+            }
+
+            .left-message {
+                width: 70%;
+                float: left;
+                padding: 10px;
+                font-size: 12px;
+                position: relative;
+                background: #f3f3f3;
+                margin: 20px 20px 20px 20px;
+                border-radius: 20px 20px 20px 20px;
+                .name {
+                    font-size: 15px;
+                    font-weight: 900;
+                    color: rgb(119, 119, 119);
+
+                }
+                .date {
+                    float: right;
+                    font-size: 10px;
+                    color: rgb(12, 170, 157);
+                }
+            }
+            
+            .left-message:before {
+                top: 20%;
+                width: 0;
+                height: 0;
+                right: 100%;
+                content: "";
+                position: absolute;
+                border-right: 15px solid #f3f3f3;
+                border-bottom: 15px solid transparent;
+            }
+
+            .right-message {
+                width: 70%;
+                float: right;
+                padding: 10px;
+                font-size: 12px;
+                position: relative;
+                background: #dfffc3;
+                margin: 20px 20px 20px 20px;
+                border-radius: 20px 20px 20px 20px;
+                .name {
+                    font-size: 15px;
+                    font-weight: 900;
+                    color: rgb(121, 121, 121);
+
+                }
+                .date {
+                    float: right;
+                    font-size: 10px;
+                    color: rgb(12, 170, 157);
+                }
+            }
+      
+            .right-message:before {
+                top: 20%;
+                width: 0;
+                height: 0;
+                left: 100%;
+                content: "";
+                float: right;
+                position: absolute;
+                border-left: 15px solid #dfffc3;
+                border-bottom: 15px solid transparent;
+            }
+
+        }
+
+        .reply-panel {
+            background: rgb(255, 255, 255);
+            grid-template-columns: 9fr 1fr;
+            padding-left: 1%;
+            position: fixed;
+            display: grid;
+            grid-gap: 2%;
+            height: 08%;
+            left: 20.5%;
+            width: 80%;
+            bottom: 0%;
+
+            textarea {
+                background: rgb(255, 255, 255);
+                border-radius: 10px;
+                height: 82%;
+            }
+
+            
+            img {
+                height: 32px;
+                padding-top: 10PX;
+            }
+        }
+    }
+
+    .chat-welcome {
+        top: 25%;
+        left: 40%;
+        margin: auto;
+        text-align: center;
+        position: absolute;
+        border-radius: 20px 20px 20px 20px;
+        background: rgb(241, 237, 237);
+        box-shadow: 20px 20px 15px 00px rgba(0, 0, 0, 0.5);
+        img {
+            padding: 20px 20px 00px 20px;
+            height: 130px;
+            width: 230px;
+            
+        }
+        h2 {
+            padding: 20px;
+            font-size: 20px;
+            word-spacing: 05px;
+            color: rgb(189, 185, 185);
+            background: rgb(7, 110, 110);
+        }
+    }
+}

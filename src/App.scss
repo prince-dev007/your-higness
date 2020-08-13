@@ -1,0 +1,168 @@
+@import './assets/style/login.scss';
+@import './assets/style/footer.scss';
+@import './assets/style/landing.scss';
+@import './assets/style/profile.scss';
+@import './assets/style/registerUser.scss';
+@import './assets/style/registerService.scss';
+
+
+@import './assets/style/bar.scss';
+
+@import './assets/style/chat.scss';
+
+@import './assets/style/doctor.scss';
+
+@import './assets/style/master.scss';
+
+@import './assets/style/offline.scss';
+
+@import './assets/style/mainSearch.scss';
+
+@import './assets/style/homeButton.scss';
+
+@import './assets/style/userBooking.scss';
+
+@import './assets/style/welcomePage.scss';
+
+@import './assets/style/onDemandPage.scss';
+
+@import './assets/style/unlockingPage.scss';
+
+@import './assets/style/userDashboard.scss';
+
+@import './assets/style/userHeaderMenu.scss';
+
+@import './assets/style/masterHeaderMenu.scss';
+
+
+body {
+    margin: 0; 
+    padding: 0;
+    // font-family: 'Nunito', sans-serif;
+}
+
+input {
+    outline: none;
+}
+
+select {
+    outline: none;
+}
+
+button {
+    outline: none;
+}
+
+.independent-logo {
+    display: inline-block;
+    .logo {
+        margin-left: 30px;
+        img {
+            width: 250px;
+            height: 80px;
+            cursor: pointer;
+            border: 0px solid #000;
+        }
+    }
+}
+
+.Toastify__toast-container {
+    width: 360px;
+    .Toastify__toast--default {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .Toastify__toast--info {
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+        color: rgb(199, 199, 199);
+        background: rgb(10, 114, 114);
+   }
+    .Toastify__toast--success {
+        font-size: 12px;
+        font-weight: 700;
+      text-align: center;
+      color: rgb(199, 199, 199);
+      background: rgb(7, 112, 7);
+   }
+    .Toastify__toast--warning {
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+        color: rgb(199, 199, 199);
+        background: rgb(83, 55, 2);
+   }
+    .Toastify__toast--error {
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+        color: rgb(199, 199, 199);
+        background: rgb(192, 12, 12);
+   }
+        
+}
+
+
+@media(max-width: 700px) {
+    .independent-logo {
+        .logo {
+            img {
+                width: 100px;
+                height: 60px;
+            }
+        }
+    }
+    
+}
+
+@media(max-width: 500px) {
+    .independent-logo {
+        margin-left: 5px;
+        .logo {
+            img {
+                width: 80px;
+                height: 40px;
+            }
+        }
+    }
+    
+}
+
+@media(max-width: 380px) {
+    .independent-logo {
+        .logo {
+        margin: 10px 00px 00px 10px;
+            img {
+                width: 60px;
+                height: 30px;
+            }
+        }
+    }
+
+    .Toastify__toast-container {
+    width: 320px;
+    .Toastify__toast--default {
+        font-size: 09px;
+        font-weight: 900;
+    }
+    .Toastify__toast--info {
+        font-size: 09px;
+        font-weight: 900;
+   }
+    .Toastify__toast--success {
+        font-size: 09px;
+        font-weight: 900;
+   }
+    .Toastify__toast--warning {
+        font-size: 09px;
+        font-weight: 900;
+   }
+    .Toastify__toast--error {
+        font-size: 09px;
+        font-weight: 900;
+   }
+        
+}
+    
+}

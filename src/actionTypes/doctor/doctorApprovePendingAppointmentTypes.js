@@ -1,0 +1,5 @@
+/*
+* This is action-type of approving pending appointment in case success or failure.
+*/
+export const DOCTOR_APPROVE_PENDING_APPOINTMENT_SUCCESS = 'DOCTOR_APPROVE_PENDING_APPOINTMENT_SUCCESS';
+export const DOCTOR_APPROVE_PENDING_APPOINTMENT_FAILURE = 'DOCTOR_APPROVE_PENDING_APPOINTMENT_FAILURE';

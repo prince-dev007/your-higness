@@ -1,0 +1,214 @@
+.main-search {
+    
+    .desktop-search {
+        top: 55%;
+        left: 50%;
+        width: 60%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    
+        .locations-elements {
+            display: flex;
+            width: 100%;
+        }
+        
+        button {
+            width: 20%;
+            outline:none;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 05px;
+            color: rgb(112, 111, 111);
+            padding: 16px 20px 16px 20px;
+            background: rgb(255, 255, 255);
+            font-family: 'Times New Roman', serif;
+        }
+    
+        button:hover {
+            background: rgb(156, 204, 207);
+        }
+    
+        button:active {
+            color: rgb(255, 255, 255);
+            background: rgb(59, 137, 143);
+        }
+    
+        input {
+            width: 76%;
+            outline:none;
+            border: none;
+            font-size: 18px;
+            margin-right: 1%;
+            border-radius: 05px;
+            color: rgb(112, 111, 111);
+            padding: 16px 20px 16px 50px;
+            background: rgb(255, 255, 255);
+            font-family: 'Times New Roman', serif;
+        }
+    
+        .searchDoctorClass::placeholder {
+            color: rgb(216, 128, 128);
+        }
+    
+    }
+    
+    .phone-search {
+        top: 55%;
+        left: 50%;
+        width: 60%;
+        display: none;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    
+        .locations-elements {
+            display: flex;
+            width: 100%;
+        }
+        
+        button {
+            width: 20%;
+            outline:none;
+            font-size: 18px;
+            cursor: pointer;
+            margin-right: 1%;
+            border-radius: 05px;
+            color: rgb(112, 111, 111);
+            padding: 16px 20px 16px 20px;
+            background: rgb(255, 255, 255);
+            font-family: 'Times New Roman', serif;
+        }
+    
+        button:hover {
+            background: rgb(156, 204, 207);
+        }
+    
+        button:active {
+            color: rgb(255, 255, 255);
+            background: rgb(59, 137, 143);
+        }
+    
+        input {
+            width: 76%;
+            outline:none;
+            border: none;
+            font-size: 18px;
+            text-align: center;
+            border-radius: 05px;
+            color: rgb(112, 111, 111);
+            padding: 16px 20px 16px 20px;
+            background: rgb(255, 255, 255);
+            font-family: 'Times New Roman', serif;
+        }
+    
+        .searchDoctorClass::placeholder {
+            color: rgb(216, 128, 128);
+        }
+    
+    }
+}
+
+@media(max-width: 760px) {
+    .main-search {
+        .desktop-search {
+            width: 80%;
+            button {
+                font-size: 16px;
+            }
+
+            input {
+                font-size: 16px;
+            }
+        
+        }
+    }
+}
+
+@media(max-width: 700px) { 
+    .main-search {
+        .desktop-search {
+        
+            button {
+                width: 30%;
+                font-size: 12px;
+            }
+    
+            input {
+                width: 70%;
+                font-size: 12px;
+            }
+        
+        } 
+    }
+}
+
+@media(max-width: 550px) { 
+    .main-search {
+        .desktop-search {
+            display: none;
+        }
+        
+        .phone-search {
+            display: block;
+            .locations-elements {
+                display: block;
+                width: 100%;
+            }
+    
+            input {
+                width: 100%;
+                padding: 00px;
+                font-size: 13px;
+                padding-top: 10px;
+                margin-bottom: 10px;
+                padding-bottom: 10px;
+            }
+    
+            button {
+                width: 100%;
+                padding: 00px;
+                font-size: 13px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        
+        }
+    }
+}
+
+@media(max-width: 490px) {
+    .main-search { 
+        .phone-search {
+            width: 80%;
+            input {
+                font-size: 12px;
+            }
+    
+            button {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media(max-width: 300px) {
+    .main-search {
+        .phone-search {
+            top: 40%;
+            width: 90%;
+            display: block;
+            .locations-elements {
+                display: block;
+                width: 100%;
+            }
+
+            input {
+                font-size: 10px;
+            }
+    
+            button {
+                font-size: 10px;
+            }
+        
+        }
+    }
+}

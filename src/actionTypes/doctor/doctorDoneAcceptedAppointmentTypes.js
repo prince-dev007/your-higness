@@ -1,0 +1,5 @@
+/*
+* This is action-type of done approved appointment in case success or failure.
+*/
+export const DOCTOR_DONE_APPROVED_APPOINTMENT_SUCCESS = 'DOCTOR_DONE_APPROVED_APPOINTMENT_SUCCESS';
+export const DOCTOR_DONE_APPROVED_APPOINTMENT_FAILURE = 'DOCTOR_DONE_APPROVED_APPOINTMENT_FAILURE';

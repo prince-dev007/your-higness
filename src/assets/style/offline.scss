@@ -1,0 +1,84 @@
+.error-connection {
+    width: 100%;
+    height: 100vh;
+    background: #cacaca;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url( ../images/WelcomeBackground.png);
+
+
+
+    .title {
+        top: 50%;
+        left: 50%;
+        opacity: 0;
+        padding: 40px;
+        text-align: center;
+        width: fit-content;
+        position: absolute;
+        border-radius: 10px;
+        transition: 1.5s ease;
+        filter:alpha(opacity=0);
+        background: rgb(16, 88, 88);
+        transform: translate(-50%, -50%);
+        box-shadow: 00px 00px 00px 02px rgba(255, 255, 255, 0.5);
+    }
+    
+    img {
+        width: 80px;
+        height: 50px;
+        padding: 15px;
+        border-radius: 10px;
+        background: white;
+        border: 1px solid rgb(6, 65, 57);
+    }
+    
+    .title h1 {
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+    }
+
+    .title:hover {
+        background: rgb(47, 185, 185);
+        box-shadow: 00px 00px 00px 06px rgba(255, 255, 255, 0.5);
+    }
+}
+
+@media (max-width: 500px) {
+    .title h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 430px) {
+    .title h1 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 350px) {
+    
+    .title {
+        padding: 20px;
+    }
+
+    
+.title h1 {
+    font-size: 12px;
+}
+
+}
+
+@media (max-width: 245px) {
+    
+    .title {
+        padding: 10px;
+    }
+
+    
+.title h1 {
+    font-size: 10px;
+}
+
+}
+    

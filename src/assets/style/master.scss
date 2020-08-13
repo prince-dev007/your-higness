@@ -1,0 +1,569 @@
+/*
+* This is a style of master directory.
+*/
+.master-dashbord-container {
+
+    .master-side-menu {
+        background: rgb(1, 61, 61);
+        padding-top: 10px;
+        margin-left: 30px;
+        position: fixed;
+        height: 35%;
+        width: 20%;
+        top: 10%;
+        left: 0;
+
+        .master-border {
+            width: 100%;
+            height: 2px;
+            margin: 00px 00px 10px 00px;
+            background: rgb(212, 212, 212);
+        }
+        .master-profile-detail {
+            text-align: center;
+            color: silver;
+            top: 00;
+        }
+        
+        .master-profile {
+            border-radius: 50px;
+            height: 60px;
+            width: 60px;
+        }
+
+        .master-username {
+            font-size: 13px;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+        
+        .master-username span {
+            color: rgb(122, 122, 122);
+            display: inline-block;
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+        .master-dashboard-name-icon {
+            width: 30px;
+            height: 10px;
+            margin-left: 05px;
+            display: inline-block;
+        }
+
+        .master-request-status {
+            background: rgb(1, 61, 61);
+        }
+        
+        .master-request-status a {
+            background: rgb(1, 61, 61);
+            padding: 05px 05px 15px 05px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: 900;
+            color: silver;
+            font-size: 16px;
+            display: block;
+            margin: auto;
+        }
+        
+        .master-request-status .master-current-status {
+            color: rgb(139, 139, 139);
+        }
+        
+        .master-no-current-status:hover {
+            color: rgb(139, 139, 139);
+            font-size: 16px;
+        }
+        
+        .master-report-status {
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            font-size: 12px;
+            padding: 10px;
+        }
+        
+        .master-box-status {
+            display: inline-block;
+            border-radius: 50px;
+            margin-right: 05px;
+            color: silver;
+            height: 60px;
+            width: 60px;
+        }
+        
+        .master-box-status span {
+            font-weight: 900;
+            font-size: 15px;
+        }
+        
+        .pending-status {
+            background: rgb(133, 132, 132);
+        }
+        
+        .accepted-status {
+            background: rgb(0, 116, 0);
+        }
+        
+        .rejected-status {
+            background: rgb(180, 1, 1);
+        }
+    }
+
+    .master-dashbord {
+        margin-left: 22%;
+
+        .master-heading {
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 50px;
+            display: inline-block;
+            color: rgb(161, 161, 161);
+        }
+
+        .master-dashboard-icon {
+            width: 40px;
+            height: 25px;
+            margin-left: 05px;
+            display: inline-block;
+        }
+
+        .master-scam {
+            font-weight: 900;
+            margin-top: 200px;
+            font-size: xx-large;
+            color: rgb(161, 161, 161);
+        }
+
+        .reset-link {
+            background-color: #094d4a;
+            border-radius: 20px 20px;
+            display: inline-block;
+            text-decoration: none;
+            padding: 08px 15px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 600;
+            color: #ffff;
+            margin: 20px;
+            border: 0;
+        }
+            
+        .reset-link:hover { 
+            background-color: #052726;
+            cursor: pointer;
+            color: #fff;
+        }
+        
+        .master-dashbord-request {
+            margin: 50px;
+            color: rgb(161, 161, 161);
+        }
+        
+        .master-dashbord-request h3 {
+            margin-bottom: 05px;
+            display: inline-block;
+        }
+    
+        .master-dashbord-request input {
+            float: right;
+            border: none;
+            border-radius: 05px;
+            margin: 20px 10px 00px 00px;
+            color: rgb(3, 94, 94);
+            padding: 05px 00px 05px 20px;
+            background: rgb(177, 176, 176);
+        }
+
+        .master-dashbord-request .search-result {
+            color: rgb(245, 114, 114);
+            margin-right: 35px;
+            font-weight: 900;
+            font-size: 14px;
+            float: right;
+        }
+    
+        .master-dashbord-request .search-button {
+            margin: 27px 00px 00px 00px; 
+            display: inline;
+            cursor: pointer;
+            float: right;
+            width: 25px;
+            height: 17px;
+        }
+        
+        .master-dashbord-request .master-title-border {
+            width: 35%;
+            margin-top: 00px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid silver;
+        }
+        
+        .master-dashbord-request ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .master-dashbord-request li {
+            background-color: #eee;
+            padding: 15px;
+        }
+        
+        .master-dashbord-border {
+            height: 2px;
+            border-radius: 0px 50px 50px 0px;
+            background: rgb(127, 139, 139);
+        }
+        
+        .master-dashbord-request li img {
+            border-radius: 50px;
+            height: 30px;
+            width: 30px;
+        }
+        
+        .master-dashbord-request li p {
+            margin: auto;
+            margin-left: 4em;
+            margin-top: -2em;
+            padding-top: 20px;
+            margin-bottom: 1em;
+        }
+        
+        .master-dashbord-request li p .span {
+            margin-right: 30px;
+            color: #7a7a7a;
+            font-size: 14px;
+            font-weight: 900;
+        }
+        
+        .master-dashbord-request li p .span-pending-status {
+            color: rgb(161, 161, 161);
+            margin-right: 100px;
+            font-weight: 900;
+            font-size: 14px;
+            float: right;
+        }
+        
+        .master-dashbord-request li p .span-pending-status img {
+            margin-right: 10px;
+        }
+
+        .master-dashbord-request li p .span-accept-status {
+            margin-right: 200px;
+            color: #00690a;
+            font-weight: 900;
+            font-size: 14px;
+            float: right;
+        }
+    
+        .master-dashbord-request li p .span-accept-status img {
+            margin-right: 10px;
+        }
+
+        .master-dashbord-request li p .span-reject-status {
+            color: #c9270a;
+            margin-right: 200px;
+            font-weight: 900;
+            font-size: 14px;
+            float: right;
+        }
+    
+        .master-dashbord-request li p .span-reject-status img {
+            margin-right: 10px;
+        }
+        
+        .master-dashbord-request li p .Dr-username {
+            color: rgb(48, 47, 47);
+        }
+        
+        .master-dashbord-request li p span img {
+            width: 15px;
+            height: 15px;
+            margin-right: 05px;
+        }
+        
+        .master-dashbord-request li p button img {
+            width: 10px;
+            height: 10px;
+        }
+        
+        .master-dashbord-request .request-mark {
+            width: 20px;
+            height: 08px;
+        }
+        
+        .master-dashbord-request li p button {
+            padding: 05px 15px 05px 15px;
+            text-decoration: none;
+            border-radius: 03px;
+            margin-right: 10px;
+            color: silver;
+            font-size: 12px;
+            float: right;
+        }
+        
+        .master-dashbord-request li p .view-request {
+            border: 1px solid silver;
+            background: #8f8f8f;
+            border-radius: 15px;
+        }
+        
+        .master-dashbord-request li p .accept-request {
+            background: rgb(0, 116, 0);
+            border: 1px solid silver;
+            border-radius: 15px;
+        }
+        
+        .master-dashbord-request li p .reject-request {
+            background: rgb(180, 1, 1);
+            border: 1px solid silver;
+            border-radius: 15px;
+        }
+        
+        .master-dashbord-request li p .view-request:hover {
+            border: 1px solid silver;
+            background: #5f5f5f;
+        }
+        
+        .master-dashbord-request li p .accept-request:hover {
+            background: rgb(0, 71, 0);
+            border: 1px solid silver;
+        }
+        
+        .master-dashbord-request li p .reject-request:hover {
+            background: rgb(122, 1, 1);
+            border: 1px solid silver;
+        }
+
+
+        .master-request-table-header {
+            width: 80%;
+            padding: 18px;
+            color: silver;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            border-bottom: none;
+            margin: 20px auto;
+            background: rgb(1, 61, 61);
+            border-radius: 20px 20px 0px 0px;
+        }
+
+        .master-request-containering {
+            width: 90%;
+            border: none;
+            padding: 20px;
+            margin: auto;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        .master-request-table {
+            width: 88%;
+            margin: auto;
+        }
+
+        .master-request-table th {
+            padding: 10px;
+            color: rgb(231, 231, 231);
+            background-image: linear-gradient(135deg, #fdfcfb 0%, rgb(1, 61, 61) 100%);
+        }
+
+        .master-request-table td {
+            padding: 10px;
+            background: silver;
+        }
+
+        .master-request-table td:hover {
+            background: rgb(235, 235, 235);
+        }
+
+        .master-request-table td a {
+            text-decoration: none;
+            color: rgb(5, 71, 192);
+        }
+
+        .master-request-table .keys {
+            padding-left: 20px;
+            font-size: 15px;
+            font-weight: 900;
+            color: rgb(3, 29, 29)
+        }
+
+        .master-request-table .values {
+            padding-left: 20px;
+            font-size: 15px;
+            color: rgb(1, 61, 61)
+        }
+
+        .master-request-message {
+            width: 300px;
+            height: 100px;
+            padding: 15px;
+            font-size: 12px;
+            margin-top: 50px;
+            margin-left: 60px;
+            font-weight: bold;
+            border-radius: 5px;
+            background: silver;
+            color: rgb(1, 61, 61);
+        }
+
+        .search-error {
+            border: 1px solid rgb(212, 32, 32);
+        }
+
+        .search-error::placeholder {
+            color: rgb(212, 32, 32);
+        }
+
+        .master-view-message {
+            float: right;
+            width: 300px;
+            height: 200px;
+            padding: 15px;
+            font-size: 15px;
+            overflow-y: auto;
+            margin-top: 50px;
+            font-weight: bold;
+            margin-right: 60px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            background: silver;
+            color: rgb(5, 65, 65);
+            h2 {
+                text-align: center;
+                margin-top: 00px;
+                font-size: 20px;
+            }
+
+            .master-message div {
+            padding: 03px;
+            font-size: 12px;
+            }
+            .master-title-comment {
+                width: 30%;
+                border-bottom: 1px solid rgb(147, 150, 149);
+            }
+        }
+
+        .master-request-button {
+            width: 69px;
+            color: silver;
+            font-size: 10px;
+            margin-left: 20px;
+            border-radius: 20px;
+            background: rgb(1, 61, 61);
+            padding: 06px 00px 06px 00px;
+        }
+
+        .master-request-message-error {
+            margin-left: 60px;
+            font-weight: 900;
+            color: rgb(185, 123, 123);
+        }
+
+        .master-dashbord-pagination {
+            margin-top: 50px;
+            text-align: center;
+            margin-bottom: 100px;
+            
+            .pagination-angles {
+                font-weight: bold;
+                line-height: 16px;
+                font-size: 20px;
+                margin: 0 30px;
+              }
+
+            .pagination-page {
+                font-weight: 900;
+                font-size: 15px;
+                line-height: 16px;
+                padding: 08px 30px;
+                color: rgb(1, 61, 61);
+                background: rgb(224, 223, 223);
+                border-radius: 08px 08px 08px 08px;
+                box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+            }
+        }
+
+        .master-dashbord-request .search-input::placeholder {
+            color: #a70202;
+        }
+
+        .master-dashbord-request .search-input {
+            border: 2px solid #a70202;
+        }
+    }
+    
+    .master-dashbord-login {
+
+        top: 30%;
+        left: 35%;
+        width: 30%;
+        text-align: center;
+        position: absolute;
+        border-radius: 10px;
+        padding: 10px 10px 10px 10px;
+        background: rgb(1, 68, 68);
+        box-shadow: 10px 10px 10px 00px rgba(0, 0, 0, 0.5);
+        
+        h1 {
+            font-size: 20px;
+            color: rgb(204, 198, 198);
+        }
+    
+        .master-dashbord-login-fields {
+            margin-top: 30px;
+        }
+    
+        .master-dashbord-login-fields .master-dashbord-login-input {
+            margin-bottom: 20px;
+        }
+    
+        .master-dashbord-login-fields .master-dashbord-login-input input {
+            width: 80%;
+            border: none;
+            border-radius: 05px;
+            color: rgb(63, 62, 62);
+            padding: 10px 00px 10px 20px;
+        }
+
+        .master-login-form-error {
+            font-size: 15px;
+            color: #ff7b7b;
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+    
+        .master-dashbord-login-fields .master-dashbord-login-input button {
+            width: 85%;
+            border: none;
+            font-weight: 600;
+            margin-top: 20px;
+            border-radius: 05px;
+            color: rgb(207, 204, 204);
+            padding: 08px 20px 08px 20px;
+            background: rgb(102, 100, 100);
+        }
+
+        .master-dashbord-login-fields .master-dashbord-login-input .master-email-input {
+            border: 2px solid #a70202;
+        }
+
+        .master-dashbord-login-fields .master-dashbord-login-input .master-email-input::placeholder {
+            color: #a70202;
+        }
+
+        .master-dashbord-login-fields .master-dashbord-login-input .master-password-input {
+            border: 2px solid #a70202;
+        }
+
+        .master-dashbord-login-fields .master-dashbord-login-input .master-password-input::placeholder {
+            color: #a70202;
+        }
+    }   
+}

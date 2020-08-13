@@ -1,0 +1,168 @@
+/*
+* This is a style of master header menu.
+*/
+
+.master-header-container {
+    width: 100%;
+    ul, li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    .header {
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        height: 10%;
+        display: flex;
+        position: fixed;
+        align-items: center;
+        justify-content: space-between;
+        background: rgb(192, 192, 192);
+        border-bottom: 1px solid rgb(8, 119, 119);
+    }
+
+    .your-highness-menu {
+        padding: 15px 25px;
+        cursor: pointer;
+        span img {
+            height: 15px;
+            width: 30px;
+        }
+    }
+
+    .user-alert {
+        .user-button-event {
+            margin-right: 100px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+    
+            ul {
+                display: flex;
+                justify-content: space-around;
+            }
+            ul li {
+                padding: 08px 10px 08px 10px ;
+                border-radius: 50%;
+                position: relative;
+                color: rgb(8, 119, 119);
+                background: rgb(5, 43, 43);
+    
+                img {
+                    height: 20px;
+                    width: 20px;
+                }
+    
+                span::after {
+                    top: 2px;
+                    content: '';
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    position: absolute;
+                }
+                .notification::after {
+                    background: rgb(207, 61, 61);
+                    border: 1px solid rgb(207, 61, 61);
+                }
+                .chat::after {
+                    background: rgb(207, 61, 61);
+                    border: 1px solid rgb(207, 61, 61);
+                }
+            }
+        }
+        
+    }
+
+    .nav-bar {
+        position: relative;
+        margin-right: 50px;
+        font-size: 13px;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+        }
+        ul li {
+            cursor: pointer;
+            color: rgb(8, 119, 119);
+            transition: all 1s ease;
+            padding: 05px 20px 05px 20px;
+            border-radius: 10px 10px 10px 10px;
+            border: 1px solid rgb(8, 119, 119);
+        }
+        ul li .active,ul li:hover {
+            color: rgb(255, 255, 255);
+            box-shadow: 0 -100px 0px rgb(8, 119, 119) inset;
+        }
+    }
+
+    .notification-container {
+        position: fixed;
+        top: 13%;
+        left: 40%;
+        width: 400px;
+        border-radius: 08px;
+        border-left: 1px solid rgb(144, 144, 144);
+
+        .notification-header {
+            background: rgb(7, 54, 54);
+            color: #ffffff;
+            padding: 1px;
+            padding-left: 10px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 08px 08px 00px 00px;
+        }
+        .notification-content {
+            max-height: 400px;
+            overflow-y: scroll;
+        }
+
+        .content {
+            padding: 20px;
+            cursor: default;
+            color: #7a7a7a;
+            background: #ccc;
+            padding-left: 10px;
+            border-bottom: 1px solid rgb(145, 145, 145);
+
+            .notification-date {
+                float: right;
+                font-size: 11px;
+                font-weight: 900;
+                color: rgb(71, 71, 71);
+            }
+        }
+
+        .notification-footer {
+            background: rgb(7, 54, 54);
+            color: #ffffff;
+            padding: 1px;
+            padding-left: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 00px 00px 08px 08px;
+        }
+    }
+
+/*----------------------- Notification Section --------------------- */
+
+    .notification-container::before {
+        width: 0;
+        height: 0;
+        left: 43%;
+        top: 10.5%;
+        content: "";
+        position: fixed;
+        border-bottom: 20px solid rgb(7, 54, 54);
+        border-left: 21px solid transparent;
+        border-right: 21px solid transparent;
+    } 
+        
+}

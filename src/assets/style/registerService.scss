@@ -1,0 +1,1074 @@
+/*
+* This is a style of register service directory.
+*/
+.form-services-container {
+    width: 40%;
+    color: white;
+    border-radius: 10px;
+
+    top: 15%;
+    left: 10%;
+    margin-bottom: 100px;
+    position: absolute;
+
+    h1 {
+        color: white;
+        font-size: 25px;
+    }
+
+    .form-user-name {
+        font-size: 20px;
+        color: rgb(214, 140, 1);
+        text-transform: capitalize;
+    }
+
+    .form-steps{
+        font-size: 15px;
+        font-weight: 900;
+        color: rgb(173, 162, 162);
+    }
+
+    .form-steps-current{
+        color: rgb(214, 140, 1);
+
+    }
+
+    .form-guide-proceed-button {
+        width: 50%;
+        border: 0px;
+        font-size: 15px;
+        font-weight: 600;
+        background: orange;
+        margin-bottom: 10px;
+        color: rgb(255, 255, 255);
+        padding: 10px 40px 10px 30px;
+    }
+
+    .form-guides-paragraph {
+        font-size: 100%;
+        margin-top: 20px;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .form-guides-box {
+        width: 80%;
+        font-size: 15px;
+        text-align: justify;
+        border-radius: 10px;
+        margin: 20px 0px 100px 0px;
+        border: 1px solid skyblue;
+        padding: 10px 10px 10px 10px;
+        background-color: rgb(9, 146, 146);
+    }
+
+    .form-desc {
+        font-size: 15px;
+        margin: 00px 0px 10px 0px;
+        color: rgb(255, 255, 255);
+    }
+
+    .form-title {
+        width: 70%;
+        border-bottom: 1px solid orange;
+    }
+
+    .form-labels {
+        font-size: 13px;
+        font-weight: 900;
+        color: rgb(226, 211, 211);
+    }
+
+    .form-one-fields {
+        border: 0;
+        width: 100%;
+        display: block;
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: rgb(102, 102, 102);
+        padding: 07px 08px 07px 10px;
+    }
+
+    .form-file {
+        width: 90%;
+        margin: 30px 0px 30px 0px;
+        padding: 07px 16px 20px 20px;
+        background: rgb(192, 192, 192);
+        border: 01px solid rgb(209, 209, 209);
+    }
+
+    .form-file-input {
+        border: 0;
+        width: 70%;
+        margin: auto;
+        display: block;
+        font-size: 15px;
+        font-weight: 900;
+        color: rgb(192, 192, 192);
+        padding: 10px 08px 10px 10px;
+    }
+
+    .form-preview {
+        width: 200px;
+        height: 100px;
+        font-size: 13px;
+        font-weight: 900;
+        margin: 05px auto;
+        color: rgb(221, 221, 221);
+    }
+
+    .form-preview img{
+        width: 199px;
+        height: 99px;
+    }
+
+    .paragraph-one {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .form-previous {
+        position: relative;
+        color: rgb(221, 221, 221);
+    }
+
+    .form-previous-icon {
+        position: absolute;
+        padding: 02px;
+        right: 17%;
+        top: 0;
+    }
+
+    .form-previous img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .flex-form {
+        width: 100%;
+        display: flex;
+
+        .flex-pre-input {
+            border: 0;
+            width: 20%;
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            margin-right: 01px;
+            color: rgb(102, 102, 102);
+            padding: 07px 08px 07px 10px;
+        }
+
+        .flex-input {
+            border: 0;
+            width: 70%;
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            color: rgb(102, 102, 102);
+            padding: 07px 08px 07px 10px;
+        }
+
+        .unflex-input {
+            border: 0;
+            width: 92%;
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            color: rgb(102, 102, 102);
+            padding: 07px 16px 07px 10px;
+        }
+
+        .flex-pre-image {
+            border: 0;
+            width: 86%;
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            margin-right: 01px;
+            color: rgb(102, 102, 102);
+            padding: 07px 08px 07px 20px;
+        }
+
+        img {
+            width: 05%;
+            height: 28px;
+            cursor: pointer;
+        }
+
+    }
+
+    .form-previous-name-input {
+        background: rgb(255, 255, 255);
+        color: rgb(133, 133, 133);
+        padding-left: 10px;
+        position: absolute;
+        border: none;
+    
+        border-right: 01px solid rgb(177, 177, 177);
+        font-size: 12px;
+        height: 27px;
+        width: 20%;
+        left: 0;
+        top: 0;
+    }
+
+    .form-pre-name-input {
+        border: 0;
+        width: 60%;
+        height: 27px;
+        display: block;
+        font-size: 12px;
+        font-weight: 500;
+        padding-left: 115px;
+        margin-bottom: 20px;
+        color: rgb(102, 102, 102);
+    }
+
+    .form-previous-currency-input {
+        background: rgb(255, 255, 255);
+        color: rgb(133, 133, 133);
+        padding-left: 15px;
+        position:absolute;
+        border: none;
+        
+        border-right: 01px solid rgb(177, 177, 177);
+        height: 26px;
+        width: 05.5%;
+        left: 0;
+        top: 0;
+    }
+
+    .form-pre-currency-input {
+        border: 0;
+        width: 70.5%;
+        height: 27px;
+        display: block;
+        font-size: 12px;
+        padding-left: 63px;
+        color: rgb(156, 156, 156);
+    }
+
+    .form-radio-title {
+        font-weight: 600;
+        margin: 00px 0px 05px 0px;
+        text-transform: capitalize;
+        color: rgb(226, 211, 211);
+    }
+
+    .form-radio-gender {
+        font-size: 12px;
+        font-weight: 600;
+        display: inline-block;
+        text-transform: capitalize;
+        margin: 00px 00px 10px 0px;
+    }
+
+    .form-radio-female {
+        margin-left: 30px;
+    }
+
+    .form-radio {
+        width: 90%;
+        margin: 0px 0px 30px 0px;
+        padding: 07px 16px 07px 20px;
+        background: rgb(255, 255, 255);
+        border: 01px solid rgb(209, 209, 209);
+    }
+
+    .form-radio-lable {
+        display: block;
+        font-size: 15px;
+        color: rgb(156, 156, 156);
+    }
+
+    .form-radio-lable:checked {
+        background: rgb(226, 16, 16);
+        color: rgb(134, 8, 8);
+    }
+
+    .form-radio-border {
+        margin: 15px 00px 15px 00px;
+        border-bottom: 01px solid rgb(209, 209, 209);
+    }
+
+    .form-one-select-box {
+        position: relative;
+    }
+
+    .form-one-over-Select {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+    }
+
+    .form-one-hide-check-box {
+        width: 72%;
+        display: none;
+        margin: 00px 0px 20px 0px;
+        border: 1px rgb(156, 156, 156) solid;
+    }
+    
+    .form-one-show-check-box {
+        display: block;
+    }
+    
+    .form-one-hide-check-box label {
+        display: block;
+    }
+
+    .form-one-hide-check-box label:hover {
+        width: 35%;
+        background: rgb(1, 82, 82);
+        border-radius: 00px 10px 10px 00px;
+    }
+    
+    .form-one-select {
+        width: 96.5%;
+        color: rgb(105, 105, 105);
+    
+    }
+    
+    .form-note {
+        margin-bottom: 00px;
+    }
+    
+    .form-note-desc {
+        font-size: 12px;
+        color: rgb(226, 211, 211);
+    }
+    
+    .map {
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        margin-bottom: 20px;
+        background: rgb(212, 212, 212);
+    }
+    
+    .weekDays-selector input {
+         display: none !important;
+     }
+    
+    .weekDays-selector input[type=checkbox]+label {
+        border: 02px solid #dddddd;
+        color: rgb(131, 131, 131);
+        background: #dddddd;
+        display: inline-block;
+        border-radius: 50px;
+        text-align: center;
+        margin-right: 3px;
+        line-height: 27px;
+        font-size: 12px;
+        cursor: pointer;
+        height: 27px;
+        width: 27px;
+    }
+    
+    .weekDays-selector input[type=checkbox]:checked+label {
+         background: rgb(8, 119, 119);
+         color: rgb(226, 211, 211);
+     }
+
+     .register-services-error {
+         color: rgb(248, 131, 131);
+         margin-bottom: 10px;
+         font-weight: 700;
+         font-size: 13px;
+     }
+    
+    .form-buttons {
+        width: 96.5%;
+
+        button {
+            margin: auto;
+            width: 40%;
+            border: 0px;
+            font-size: 13px;
+            font-weight: 600;
+            display: inline-block;
+            padding: 07px 16px 07px 20px;
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    .form-back-button {
+        background: rgb(190, 190, 190);
+    }
+
+    .form-back-button:hover {
+        background: rgb(151, 151, 151);
+    }
+
+    .form-proceed-button {
+        float: right;
+        background: orange;
+    }
+
+    .form-proceed-button:hover {
+        float: right;
+        background: rgb(185, 121, 0);
+    }
+    
+
+    
+
+
+    // ############################################################ Border red color handling
+    .gender-input{
+        border: none;
+        color: rgb(241, 70, 70);
+    }
+    
+    .specialization-input{
+        border: 01px solid rgb(248, 25, 25);
+    }
+    
+    .specialization-input::placeholder {
+        color: red;
+    }
+
+    .treatment-input{
+        color: red;
+        border: 01px solid rgb(248, 25, 25);
+    }
+
+    .city-input{
+        color: red;
+        border: 01px solid rgb(248, 25, 25);
+    }
+
+    .regnumber-input{
+        border: 01px solid rgb(248, 25, 25);
+    }
+    
+    .regnumber-input::placeholder {
+        color: red;
+    }
+
+    .regcouncil-input{
+        border: 01px solid rgb(248, 25, 25);
+    }
+    
+    .regcouncil-input::placeholder {
+        color: red;
+    }
+
+    .regyear-input{
+        border: 01px solid rgb(248, 25, 25);
+    }
+    
+    .regyear-input::placeholder {
+        color: red;
+    }
+
+    .degree-input{
+        border: 01px solid rgb(248, 25, 25);
+    }
+    
+    .degree-input::placeholder {
+        color: red;
+    }
+
+    .college-input{
+        border: 01px solid rgb(248, 25, 25);
+    }
+    
+    .college-input::placeholder {
+        color: red;
+    }
+
+    .completionyear-input{
+        border: 01px solid rgb(248, 25, 25);
+    }
+    
+    .completionyear-input::placeholder {
+        color: red;
+    }
+
+    .experience-input{
+        border: 01px solid rgb(248, 25, 25);
+    }
+    
+    .experience-input::placeholder {
+        color: red;
+    }
+
+    .establishment-input {
+        border: none;
+        color: rgb(241, 70, 70);
+    }
+
+    .establishmentname-input{
+        border: 01px solid rgb(248, 25, 25);
+    }
+    
+    .establishmentname-input::placeholder {
+        color: red;
+    }
+
+    .establishmentcity-input{
+        border: 01px solid rgb(248, 25, 25);
+    }
+    
+    .establishmentcity-input::placeholder {
+        color: red;
+    }
+
+    .establishmentlocality-input{
+        border: 01px solid rgb(248, 25, 25);
+    }
+    
+    .establishmentlocality-input::placeholder {
+        color: red;
+    }
+
+    .medicalregproofdocument-input {
+        border: none;
+        color: rgb(255, 35, 35);
+    }
+
+    .identityproofdocument-input {
+        border: none;
+        color: rgb(255, 35, 35);
+    }
+
+    .establishproofdocument-input {
+        border: none;
+        color: rgb(255, 35, 35);
+    }
+
+    .addressname-input{
+        border: 01px solid rgb(248, 25, 25);
+    }
+    
+    .addressname-input::placeholder {
+        color: red;
+    }
+
+    .weekDays-input input[type=checkbox]+label {
+        border: 02px solid rgb(248, 25, 25);
+        color: rgb(248, 25, 25);
+    }
+
+    .starttime-input{
+        color: red;
+        border: 01px solid rgb(248, 25, 25);
+    }
+
+    .endtime-input{
+        color: red;
+        border: 01px solid rgb(248, 25, 25);
+    }
+
+    .sessiontime-input{
+        color: red;
+        border: 01px solid rgb(248, 25, 25);
+    }
+
+    .establishmenthours-input {
+        border: none;
+        color: rgb(241, 70, 70);
+    }
+
+    .consultationfees-input{
+        border: 01px solid rgb(248, 25, 25);
+    }
+    
+    .consultationfees-input::placeholder {
+        color: red;
+    }
+
+    .establishmentlocation-input {
+        border: 01px solid rgb(248, 25, 25);
+    }
+    
+    .establishmentlocation-input::placeholder {
+        color: red;
+    }
+
+
+    .register-services-correct {
+        font-size: 13px;
+        font-weight: 900;
+        color: rgb(226, 211, 211);
+    }
+ }
+
+
+// ################################ Responsiveness ####################################
+
+
+@media(max-width: 1600px) {
+    .form-services-container {
+        width: 43%;
+    }
+}
+
+
+@media(max-width: 1300px) {
+    .form-services-container {
+        width: 46%;
+    }
+}
+
+
+@media(max-width: 1100px) {
+    .form-services-container {
+        width: 55%;
+    }
+}
+
+
+@media(max-width: 1000px) {
+    .form-services-container {
+        width: 60%;
+        h1 {
+            font-size: 24px;
+        }
+
+        .form-user-name {
+            font-size: 19px;
+        }
+
+    }
+}
+
+
+@media(max-width: 900px) {
+    .form-services-container {
+        width: 65%;
+
+        h1 {
+            font-size: 22px;
+        }
+
+        .form-user-name {
+            font-size: 17px;
+        }
+
+    }
+}
+
+
+@media(max-width: 800px) {
+    .form-services-container {
+        width: 72%;
+
+        h1 {
+            font-size: 20px;
+        }
+
+        .form-user-name {
+            font-size: 15px;
+        }
+
+        .form-desc {
+            font-size: 12px;
+        }
+    
+    }
+}
+
+
+@media(max-width: 700px) {
+    .form-services-container {
+        .flex-form {
+    
+            .flex-pre-input {
+                width: 20%;
+            }
+    
+            .flex-input {
+                width: 68%;
+            }
+    
+            .unflex-input {
+                width: 91%;
+            }
+    
+            .flex-pre-image {
+                width: 86%;
+            }
+    
+            img {
+                width: 05%;
+            }
+    
+        }
+
+        .form-radio {
+            width: 88%;
+        }
+
+        .form-file {
+            width: 88%;
+        }
+    }
+}
+
+
+@media(max-width: 550px) {
+    .form-services-container {
+        width: 80%;
+        left: 06%;
+
+        h1 {
+            font-size: 16px;
+        }
+
+        .form-user-name {
+            font-size: 12px;
+        }
+
+        .form-desc {
+            font-size: 10px;
+        }
+
+        .flex-form {
+    
+            .flex-pre-input {
+                width: 20%;
+            }
+    
+            .flex-input {
+                width: 67%;
+            }
+    
+            .unflex-input {
+                width: 90%;
+            }
+    
+            .flex-pre-image {
+                width: 80%;
+            }
+    
+            img {
+                width: 09%;
+            }
+    
+        }
+
+        .form-radio {
+            width: 87%;
+        }
+
+        .form-file {
+            width: 87%;
+        }
+    }
+}
+
+
+@media(max-width: 450px) {
+    .form-services-container {
+        width: 90%;
+        left: none;
+        margin: auto;
+        
+        .flex-form {
+    
+            .flex-pre-input {
+                width: 30%;
+            }
+    
+            .flex-input {
+                width: 56%;
+            }
+    
+            .unflex-input {
+                width: 89%;
+            }
+    
+            .flex-pre-image {
+                width: 80%;
+            }
+    
+            img {
+                width: 10%;
+            }
+    
+        }
+
+        .form-radio {
+            width: 86%;
+        }
+
+        .form-file {
+            width: 86%;
+        }
+    }
+}
+
+
+@media(max-width: 400px) {
+    .form-services-container {
+        width: 90%;
+        
+        h1 {
+            font-size: 14px;
+        }
+
+        .flex-form {
+    
+            .flex-pre-input {
+                width: 30%;
+            }
+    
+            .flex-input {
+                width: 55%;
+            }
+    
+            .unflex-input {
+                width: 88%;
+            }
+    
+            .flex-pre-image {
+                width: 77%;
+            }
+    
+            img {
+                width: 10%;
+            }
+    
+        }
+
+        .form-radio {
+            width: 85%;
+        }
+
+        .form-file {
+            width: 85%;
+        }
+
+        .form-buttons {
+            button {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 350px) {
+    .form-services-container {
+        width: 90%;
+        
+        h1 {
+            font-size: 12px;
+        }
+
+        .form-user-name {
+            font-size: 11px;
+        }
+
+        .form-desc {
+            font-size: 09px;
+        }
+
+        .form-labels {
+            font-size: 12px;
+        }
+
+        .flex-form {
+    
+            .flex-pre-input {
+                width: 30%;
+            }
+    
+            .flex-input {
+                width: 54%;
+            }
+    
+            .unflex-input {
+                width: 87%;
+            }
+    
+            .flex-pre-image {
+                width: 75%;
+            }
+    
+            img {
+                width: 10%;
+            }
+    
+        }
+
+        .form-radio {
+            width: 84%;
+        }
+
+        .form-file {
+            width: 84%;
+        }
+
+        .form-buttons {
+            button {
+                font-size: 08px;
+                padding: 07px 05px 07px 05px;
+            }
+        }
+
+        .map {
+            width: 90%;
+        }
+    }
+}
+
+
+@media(max-width: 280px) {
+    .form-services-container {
+        width: 90%;
+        
+        h1 {
+            font-size: 09px;
+        }
+
+        .form-user-name {
+            font-size: 10px;
+        }
+
+        .form-desc {
+            font-size: 08px;
+        }
+
+        .form-labels {
+            font-size: 10px;
+        }
+
+        .form-radio-lable {
+            font-size: 12px;
+        }
+
+        .flex-form {
+    
+            .flex-pre-input {
+                width: 06%;
+            }
+    
+            .flex-input {
+                width: 71%;
+            }
+    
+            .unflex-input {
+                width: 83%;
+            }
+    
+            .flex-pre-image {
+                width: 72%;
+            }
+    
+            img {
+                width: 10%;
+            }
+    
+        }
+
+        .form-one-select {
+            width: 95%;
+        
+        }
+
+        .form-radio {
+            width: 77%;
+        }
+
+        .form-file {
+            width: 77%;
+        }
+
+        .form-preview img{
+            width: 110px;
+        }
+
+        .form-buttons {
+            button {
+                font-size: 08px;
+                padding: 07px 05px 07px 05px;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 200px) {
+    .form-services-container {
+        width: 90%;
+
+        h1 {
+            font-size: 07px;
+        }
+
+        .form-user-name {
+            font-size: 08px;
+        }
+
+        .form-desc {
+            font-size: 06px;
+        }
+        
+        .form-radio-lable {
+            font-size: 10px;
+        }
+
+        .flex-form {
+    
+            .flex-pre-input {
+                width: 10%;
+                font-size: 10px;
+            }
+    
+            .flex-input {
+                width: 63%;
+                font-size: 10px;
+            }
+    
+            .unflex-input {
+                width: 80%;
+                font-size: 10px;
+            }
+    
+            .flex-pre-image {
+                width: 75%;
+                font-size: 10px;
+            }
+    
+            img {
+                width: 10%;
+            }
+    
+        }
+
+        .form-one-select {
+            width: 96%;
+            font-size: 10px;
+        
+        }
+
+        .form-radio {
+            width: 73%;
+        }
+
+        .form-file {
+            width: 73%;
+        }
+
+        .form-preview img{
+            width: 70px;
+            height: 50px;
+        }
+
+        .form-buttons {
+            button {
+                width: 48%;
+                padding: 07px 05px 07px 05px;
+            }
+        }
+    }
+}
+

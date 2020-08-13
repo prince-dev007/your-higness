@@ -1,0 +1,95 @@
+/*
+* This is a style of navigation user bar.
+*/
+.dashboard-bar {
+    padding:10px 00px 10px 00px;
+    // background: #108a80;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+
+    .user-title-menus {
+        float: right;
+        font-size: 13px;
+        border-radius: 05px;
+        margin: 10px 80px 00px 00px;
+        border: 01px solid #e4e4e4;
+        padding: 06px 00px 06px 00px;
+        .url {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            padding: 00px 20px 00px 20px;
+        }
+        .url:hover {
+            cursor: pointer;
+            color: #20c2f1;
+        }
+        .separator:hover {
+            color: #20c2f1;
+        }
+    }
+
+    .service-title-menus {
+        float: right;
+        font-size: 13px;
+        border-radius: 05px;
+        margin: 10px 80px 00px 00px;
+        border: 01px solid #216e70;
+        padding: 06px 00px 06px 00px;
+        .url {
+            color: #216e70;
+            text-decoration: none;
+            padding: 00px 20px 00px 20px;
+        }
+        .url:hover {
+            cursor: pointer;
+            color: #3b6b6d;
+        }
+        .separator:hover {
+            color: #20c2f1;
+        }
+    }
+    
+}
+
+.user-menu-icon {
+    float: left;
+    width: 300px;
+    height: 100%;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    .menu-container {
+        font-weight: 900;
+        padding-top: 50px;
+        color: rgb(126, 126, 126);
+        .menu-option {
+            padding-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 30px;
+            background: rgb(255, 255, 255);
+            .current-page {
+                color: rgb(34, 133, 119);
+                font-weight: 900;
+                font-size: 15px;
+            }
+            div {
+                padding: 05px;
+                margin-top: 10px;
+            }
+            div:hover {
+                cursor: pointer;
+                color: rgb(34, 133, 119);
+            }
+        }
+    }
+    span img {
+        float: left;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+        margin-left: 80px;
+    }
+}

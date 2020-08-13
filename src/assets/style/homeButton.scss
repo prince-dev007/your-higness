@@ -1,0 +1,248 @@
+
+.add-home-window {
+    top: 02%;
+    right: 05%;
+    display: none;
+    position: fixed;
+    opacity:0; //IE9, Firefox, Chrome, Opera, and Safari
+    filter:alpha(opacity=0); //IE8 and earlier
+
+    .content {
+        border-radius: 10px;
+        background: white;
+        box-shadow: 0px 2px 12px 0px rgba(10, 10, 10, 0.4);
+
+        .header {
+            height: 40px;
+            overflow: hidden;
+            background: rgb(33, 92, 92);
+            border-radius: 10px 10px 00px 00px;
+            box-shadow: 0px 2px 3px 0px rgba(10, 10, 10, 0.4);
+
+            h2 {
+                color: white;
+                font-size: 15px;
+                padding-left: 30px;
+                font-weight: normal;
+            }
+
+            .close-icon {
+                position: absolute;
+                right: 20px;
+                top: 10px;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+            img {
+                width: 15px;
+                height: 15px;
+            }
+        
+        }
+
+        .body {
+            display: flex;
+            margin: 10px 20px 10px 20px;
+
+            .logo-icon {
+                padding: 05px;
+                color: white;
+                font-weight: bold;
+                text-align: center;
+                border-radius: 10px;
+                border: 1px solid gray;
+            }
+        
+            p {
+                text-align: justify;
+                margin-left: 20px;
+                color: #414040;
+                font-size: 13px;
+            }
+        
+            img {
+                width: 40px;
+                height: 30px;
+            }
+        }
+
+        .line {
+            width: 80%;
+            height: 1px;
+            margin: auto;
+            background: rgb(33, 92, 92);
+        }
+
+        .add-btn {
+            
+            margin: auto;
+            padding: 05px;
+            text-align: center;
+            
+            button {
+                border: 1px solid rgb(33, 92, 92);
+                background: rgb(33, 92, 92);
+                padding: 07px 20px 07px 20px;
+                border-radius: 20px;
+                font-size: 12px;
+                cursor: pointer;
+                color: white;
+            }
+            button:active {
+                background: rgb(48, 119, 119);
+            }
+        }
+
+        
+    }
+
+}
+
+.register-popup {
+    top: 20%;
+    left: 03%;
+    display: none;
+    z-index: 1;
+    position: fixed;
+    opacity:0; //IE9, Firefox, Chrome, Opera, and Safari
+    filter:alpha(opacity=0); //IE8 and earlier
+
+    .content {
+        border-radius: 10px;
+        background: white;
+        box-shadow: 0px 2px 12px 0px rgba(10, 10, 10, 0.4);
+
+        .header {
+            height: 40px;
+            overflow: hidden;
+            background: rgb(33, 92, 92);
+            border-radius: 10px 10px 00px 00px;
+            box-shadow: 0px 2px 3px 0px rgba(10, 10, 10, 0.4);
+
+            h2 {
+                color: white;
+                font-size: 15px;
+                padding-left: 30px;
+                font-weight: normal;
+            }
+
+            .close-icon {
+                position: absolute;
+                right: 20px;
+                top: 10px;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+            img {
+                width: 15px;
+                height: 15px;
+            }
+        
+        }
+
+        .body {
+            display: flex;
+            margin: 10px 20px 10px 20px;
+
+            .logo-icon {
+                padding: 05px;
+                color: white;
+                font-weight: bold;
+                text-align: center;
+                border-radius: 10px;
+                border: 1px solid gray;
+            }
+        
+            p {
+                text-align: justify;
+                margin-left: 20px;
+                color: #414040;
+                font-size: 13px;
+            }
+        
+            img {
+                width: 40px;
+                height: 30px;
+            }
+        }
+
+        .line {
+            width: 80%;
+            height: 1px;
+            margin: auto;
+            background: rgb(33, 92, 92);
+        }
+
+        .add-btn {
+            
+            margin: auto;
+            padding: 05px;
+            text-align: center;
+            
+            button {
+                border: 1px solid rgb(33, 92, 92);
+                background: rgb(33, 92, 92);
+                padding: 07px 20px 07px 20px;
+                border-radius: 20px;
+                font-size: 12px;
+                cursor: pointer;
+                color: white;
+            }
+            button:active {
+                background: rgb(48, 119, 119);
+            }
+        }
+
+        
+    }
+
+}
+
+@media (max-width: 430px) {
+    .add-home-window {
+    
+        .content {
+
+            .body {
+                p {
+                    margin-left: 05px;
+                    font-size: 10px;
+                }
+            
+                img {
+                    width: 22px;
+                    height: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .add-home-window {
+    
+        .content {
+
+            .header {
+                h2 {
+                    font-size: 13px;
+                    padding-left: 20px;
+                }
+            }
+
+            .body {
+                display: block;
+                text-align: center;
+                margin: 10px 10px 10px 10px;
+                
+                p {
+                    margin: 00px;
+                }
+            }
+        }
+    }
+}

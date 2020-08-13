@@ -1,0 +1,5 @@
+/*
+* This is action-type of rejecting an appointment in case success or failure.
+*/
+export const DOCTOR_REJECT_PENDING_APPOINTMENT_SUCCESS = 'DOCTOR_REJECT_PENDING_APPOINTMENT_SUCCESS';
+export const DOCTOR_REJECT_PENDING_APPOINTMENT_FAILURE = 'DOCTOR_REJECT_PENDING_APPOINTMENT_FAILURE';
